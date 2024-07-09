@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cedrix Ian Nocum - Web Developer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">IanTech</div>
+            <div class="menu-toggle" id="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul id="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#works">Works</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <div class="text">
+                <div class="text-one">Hello,</div>
+                <div class="text-two">I'm Cedrix Ian Nocum</div>
+                <div class="text-three">a Web Developer</div>
+            </div>
+            <div class="button">
+                <button onclick="scrollToSection('contact')">Hire Me</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="content">
+            <div class="title"><span>About Me</span></div>
+            <div class="about-details">
+                <div class="left">
+                    <img src="pic-black.jpg" alt="Profile Picture" />
+                </div>
+                <div class="right">
+                    <div class="box">
+                        <h1>Experience</h1>
+                        <p style="color: cornflowerblue;">Web Developer</p>
+                    </div>
+                    <div class="box">
+                        <h1>Education</h1>
+                        <p style="color: cornflowerblue;">B.S Information Technology</p>
+                    </div>
+                    <p>
+                        I'm a web developer with a passion for creating engaging and user-friendly websites and web applications. My focus is on designing digital experiences that not only look visually appealing but also ensure seamless functionality. I specialize in crafting interactive interfaces that enhance user engagement and satisfaction. My goal is to deliver websites and applications that not only meet client expectations but also exceed them by combining aesthetics with intuitive user experiences.
+                    </p>
+                    <div class="button">
+                        <button onclick="downloadCV()">Download CV</button>
+                        <button onclick="scrollToSection('contact')">Contact Me</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <div class="content">
+            <div class="title"><span>My Skills</span></div>
+            <div class="skills-details">
+                <div class="text">
+                    <h1>My Skills</h1>
+                    <p>I am a beginner in coding, with foundational skills in HTML, CSS, JavaScript, and Python. I am dedicated to learning and eager to expand my knowledge in these languages. My goal is to improve my abilities and become proficient in web development and programming.</p>
+                </div>
+                <div class="boxes">
+                    <div class="box">
+                        <div class="topic">PYTHON</div>
+                        <div class="per" style="color: red;">90%</div>
+                    </div>
+                    <div class="box">
+                        <div class="topic">HTML</div>
+                        <div class="per" style="color: red;">80%</div>
+                    </div>
+                    <div class="box">
+                        <div class="topic">CSS</div>
+                        <div class="per" style="color: red;">60%</div>
+                    </div>
+                    <div class="box">
+                        <div class="topic">JavaScript</div>
+                        <div class="per" style="color: red;">30%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="works" id="works">
+        <div class="content">
+            <div class="title"><span>My Works</span></div>
+            <div class="works-details">
+                <div class="work-box">
+                    <img src="resto.jpg" alt="Work 1">
+                    <h1 style="color: cornflowerblue;"> <br> Restaurant Management System</h1>
+                    <p><br> The Restaurant Management System GUI is a revolutionary tool that has transformed the way restaurants operate. With its user-friendly interface and powerful features, such as adding orders, calculating totals, deleting orders, and showing order history, it streamlines the entire ordering process</p>
+                </div>
+                <div class="work-box">
+                    <img src="web.jpg" alt="Work 2">
+                    <h1 style="color: cornflowerblue;"><br> Online Resume</h1>
+                    <p><br> I make my resume using HTML, CSS, and JavaScript to ensure it's clear, attractive, and interactive. I use HTML to arrange the content and CSS to style it nicely. JavaScript adds cool features that make my resume unique and easy to update. This way, my resume looks professional and grabs the attention of potential employers.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="content">
+            <div class="title"><span>Contact Me</span></div>
+            <div class="contact-container">
+                <div class="contact-left">
+                    <div class="contact-box">
+                        <p>Got a problem to solve?</p>
+                        <div class="contact-messenger">
+                            <button onclick="scrollToSection('contact')">Contact me</button>
+                        </div>
+                        <div class="social-links">
+                            <a href="https://www.facebook.com/cedrixian.nocum"><img src="Facebook-Logosu.jpg" alt="Facebook"></a>
+                            <a href="https://www.instagram.com/cedrixian/"><img src="Instagram-Logo.jpg" alt="Instagram"></a>
+                            <a href="https://www.facebook.com/cedrixian.nocum"><img src="Messenger-Logo.jpg" alt="LinkedIn"></a>
+                            <a href="https://www.youtube.com/watch?v=1cWuVBDoyek"><img src="youtube-logo-transparent-png-7.jpg" alt="GitHub"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="name" placeholder="Name">
+                        <input type="email" name="email" placeholder="Email">
+                        <textarea name="message" placeholder="Message"></textarea>
+                        <button type="submit" style="margin-left: 80px;">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="text">
+            <span>Created By <a href="https://github.com/Cedrixian05">Cedrixian</a> | &#169; 2024 All Rights Reserved</span>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('menu-toggle').addEventListener('click', function () {
+            document.getElementById('menu').classList.toggle('active');
+        });
+
+        function scrollToSection(sectionId) {
+            document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' });
+        }
+
+    </script>
+</body>
+</html>
+
